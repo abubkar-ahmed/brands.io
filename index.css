@@ -423,7 +423,7 @@ section h3 {
   border-radius: 0.5rem;
   width: 100%;
   min-width: 280px;
-  min-height: 40px ;
+  min-height: 50px ;
   cursor: pointer;
   outline: none;
   color: var(--para-color);
