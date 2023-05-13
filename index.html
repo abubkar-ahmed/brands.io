@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Welcome to our online Web App">
+      
+    <link rel="stylesheet" href="index.css">
+    <title>Brands.io</title>
+</head>
+<body>
+    <div class="container">
+        <header class="header">
+            <img src="./icons/logo.png" alt="logo" class="logo">
+            <h1>Brands.io</h1>
+        </header>
+        
+        <main class="main">
+            <section class="genrals none"></section>
+            <section class="step-1 none">
+                <h3 class="step-header">
+                    Please Choose The Reason For Creating The Account
+                </h3>
+                <div class="account-reason" >
+                    <button onclick="setReason('school')" class="school">For School</button>
+                    <button onclick="setReason('busineses')" class="busineses">For Busineses</button>
+                </div>
+            </section>
+            
+
+            <button class="next-step none">
+                Continue
+            </button>
+        </main>
+
+        <footer class="footer none">
+            <button class="lan">English</button>
+            <ul class="links">
+                <li><a href="#">Help</a></li>
+                <li><a href="#">Privacy</a></li>
+                <li><a href="#">Terms</a></li>
+            </ul>
+            <p class="copyright">Copyright Brand Inc. 2023-All Right Reserved</p>
+        </footer>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
