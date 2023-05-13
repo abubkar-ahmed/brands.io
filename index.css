@@ -419,11 +419,10 @@ section h3 {
 .step-4 .birth-date .date-picker {
   background-color: var(--gray-background-color);
   border: none;
-  padding: 0.5rem;
+  padding: 17px 0.5rem;
   border-radius: 0.5rem;
   width: 100%;
   min-width: 280px;
-  min-height: 50px ;
   cursor: pointer;
   outline: none;
   color: var(--para-color);
