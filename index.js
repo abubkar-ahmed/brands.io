@@ -347,7 +347,7 @@ const stepFourHandler = () => {
             <label for="birth-date" class="none">
                 Birth Date
             </label>
-            <input type="date" id="birth-date" name="birth-date" class="date-picker">
+            <input type="date" id="birth-date" name="birth-date" class="date-picker" placeholder="mm/dd/yyyy">
         </form>
         `
         main.appendChild(stepContainerFour);
